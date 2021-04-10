@@ -77,6 +77,9 @@ export default function Header() {
               <NavLink className="dropdown-item" to="/demouseeffect">
                 UseEffect
               </NavLink>
+              <NavLink className="dropdown-item" to="/baitapchonxe">
+                BT Chọn Xe
+              </NavLink>
             </div>
           </li>
         </ul>

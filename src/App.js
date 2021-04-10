@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
+import BTChonXe from "./Pages/Hook/BTChonXe/BTChonXe";
 import UseEffectDemo from "./Pages/Hook/UseEffectDemo/UseEffectDemo";
 import UseStateDemo from "./Pages/Hook/UseStateDemo/UseStateDemo";
 import Login from "./Pages/Login/Login";
@@ -37,6 +38,7 @@ function App() {
           <Route path="/about" exact component={About}></Route>
           <Route path="/demousestate" exact component={UseStateDemo}></Route>
           <Route path="/demouseeffect" exact component={UseEffectDemo}></Route>
+          <Route path="/baitapchonxe" exact component={BTChonXe}></Route>
         </Switch>
       </div>
     </BrowserRouter>
